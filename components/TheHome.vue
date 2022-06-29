@@ -1,5 +1,5 @@
 <template>
-<div class="leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed" style="background-image: url('header.png');">
+<div class="leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed bg-[url('~/public/images/header.png')]">
 <div class="h-full">
       <!--Nav-->
       <div class="w-full container mx-auto">
@@ -69,7 +69,7 @@
 
         <!--Right Col-->
         <div class="w-full xl:w-3/5 p-12 overflow-hidden">
-          <img class="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="macbook.svg" />
+          <img class="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="~/public/images/macbook.svg" />
         </div>
 
         <div class="mx-auto md:pt-16">
@@ -77,8 +77,8 @@
             Download our app:
           </p>
           <div class="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
-            <img src="App Store.svg" class="h-12 pr-12 transform hover:scale-125 duration-300 ease-in-out" />
-            <img src="Play Store.svg" class="h-12 transform hover:scale-125 duration-300 ease-in-out" />
+            <img src="~/public/images/App Store.svg" class="h-12 pr-12 transform hover:scale-125 duration-300 ease-in-out" />
+            <img src="~/public/images/Play Store.svg" class="h-12 transform hover:scale-125 duration-300 ease-in-out" />
           </div>
         </div>
 
