@@ -1,5 +1,5 @@
 <template>
   <div>
-    <TitleBox />
+    <TheNavBar />
   </div>
 </template>

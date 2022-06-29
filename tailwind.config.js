@@ -7,7 +7,6 @@ module.exports = {
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}",
     "./content/**/*.{md,yml,json,yaml,toml,csv}",
     "./app.vue",
   ],
