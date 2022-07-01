@@ -7,7 +7,6 @@ module.exports = {
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}",
     "./content/**/*.{md,yml,json,yaml,toml,csv}",
     "./app.vue",
   ],
@@ -17,7 +16,7 @@ module.exports = {
       colors: {
         primary: {
           DEFAULT: colors.violet[700],
-            ... colors.violet,
+            ...colors.violet,
         },
       },
       fontFamily: {
