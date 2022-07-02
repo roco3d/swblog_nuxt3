@@ -6,24 +6,24 @@ export default defineNuxtConfig({
     typescript:{
         shim:false
     },
-    modules: ['@nuxtjs/tailwindcss','nuxt-graphql-client'],
-
-    runtimeConfig:{
-        public:{
-            'graphql-client':{
-                clients:{
-                    orionx:{
-                        host: process.env.GQL_ORIONX_DOMAIN,
-                        token: {
-                            name: 'X-ORIONX-APIKEY',
-                            value: process.env.GQL_ORIONX_APIKEY,
-                            type: null
-                        },
-                        retainToken: true,
-                    }
-                }
-            }
-        }
-    }
+    //modules: ['@nuxtjs/tailwindcss','nuxt-graphql-client'],
+    modules: ['@nuxtjs/tailwindcss'],
+    // runtimeConfig:{
+    //     public:{
+    //         'graphql-client':{
+    //             clients:{
+    //                 orionx:{
+    //                     host: process.env.GQL_ORIONX_DOMAIN,
+    //                     token: {
+    //                         name: 'X-ORIONX-APIKEY',
+    //                         value: process.env.GQL_ORIONX_APIKEY,
+    //                         type: null
+    //                     },
+    //                     retainToken: true,
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 
 });
